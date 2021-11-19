@@ -26,12 +26,17 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
+
+            <div className="col-md-4">            
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={stock} data-lightbox="gallery-vmarine"> {/*-----> Блок картинки!!!!!*/}
+                {/*<a href='https://mitusovmaxim.wixsite.com/my-site' rel="noopener noreferrer" target="_blank"> ------> Делает картинку ссылкой!!!!!*/}
                   <div className="work-img">
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
+                </a>
+
+                <a href='https://mitusovmaxim.wixsite.com/my-site' rel="noopener noreferrer" target="_blank"> {/*-----> Блок описания!!!!!*/}
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
@@ -43,13 +48,14 @@ class Portfolio extends React.Component {
                         </div>
                       </div>
                       <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <div className="w-like">                                      
+                            <span className="ion-ios-plus-outline"></span>                                      
                         </div>
                       </div>
                     </div>
                   </div>
                 </a>
+                
                 <a
                   href={stock1}
                   data-lightbox="gallery-vmarine"
@@ -87,12 +93,17 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
+
+
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-aguadeluz">
+                <a href={stock} data-lightbox="gallery-aguadeluz"> 
                   <div className="work-img">
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
+                </a>
+
+                <a href='https://mitusovmaxim.wixsite.com/my-site' rel="noopener noreferrer" target="_blank"> {/*-----> Блок описания!!!!!*/}
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
@@ -112,6 +123,8 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+                
+
                 <a
                   href={stock1}
                   data-lightbox="gallery-aguadeluz"
@@ -149,9 +162,11 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
+            
+
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                <a href={stock} data-lightbox="gallery-todo">                
                   <div className="work-img">
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
