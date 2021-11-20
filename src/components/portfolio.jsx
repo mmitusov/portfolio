@@ -27,9 +27,10 @@ class Portfolio extends React.Component {
           </div>
           <div className="row">
 
+{/*-----> Блок картинки!!!!!*/}
             <div className="col-md-4">            
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine"> {/*-----> Блок картинки!!!!!*/}
+                <a href={stock} data-lightbox="gallery-vmarine"> 
                 {/*<a href='https://mitusovmaxim.wixsite.com/my-site' rel="noopener noreferrer" target="_blank"> ------> Делает картинку ссылкой!!!!!*/}
                   <div className="work-img">
                     <img src={stock} alt="" className="img-fluid" />
@@ -94,7 +95,7 @@ class Portfolio extends React.Component {
               </div>
             </div>
 
-
+{/*-----> Блок картинки!!!!!*/}
             <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-aguadeluz"> 
@@ -124,7 +125,6 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 
-
                 <a
                   href={stock1}
                   data-lightbox="gallery-aguadeluz"
@@ -163,13 +163,16 @@ class Portfolio extends React.Component {
               </div>
             </div>
             
-
+{/*-----> Блок картинки!!!!!*/}
             <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-todo">                
                   <div className="work-img">
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
+                </a>
+                
+                <a href='https://mitusovmaxim.wixsite.com/my-site' rel="noopener noreferrer" target="_blank"> {/*-----> Блок описания!!!!!*/}
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
@@ -189,6 +192,7 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+                
                 <a
                   href={stock1}
                   data-lightbox="gallery-todo"
@@ -226,7 +230,9 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-4">
+            
+{/*-----> Блок картинки!!!!!*/}
+{/*            <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-medlingos">
                   <div className="work-img">
@@ -406,7 +412,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </section>
