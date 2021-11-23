@@ -1,5 +1,7 @@
 import React from "react";
 import imageOverlay from "../img/earth.jpg";
+import { useForm, ValidationError } from '@formspree/react';
+
 
 class Contact extends React.Component {
   render() {
@@ -21,7 +23,7 @@ class Contact extends React.Component {
                       </div>
                       <div>
                         <form
-                          action="https://formspree.io/xdoeonlo"
+                          action="https://formspree.io/f/moqraqpb" /* -------> Copy & Paste form's endpoint from formspree account*/
                           method="POST"
                           className="contactForm"
                         >
