@@ -19,7 +19,7 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2">
-                        <h5 className="title-left">Send A Message</h5>
+                        <h5 className="title-left">Send a Message</h5>
                       </div>
                       <div>
                         <form
@@ -119,7 +119,7 @@ class Contact extends React.Component {
                       </div>
                       <div className="socials">
                         <ul>
-                          <li>
+{/*                          <li>
                             <a
                               href=""
                               target="_blank"
@@ -129,7 +129,7 @@ class Contact extends React.Component {
                                 <i className="ion-social-codepen"></i>
                               </span>
                             </a>
-                          </li>
+                          </li>*/}
                           <li>
                             <a
                               href="https://github.com/mmitusov"

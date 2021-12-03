@@ -1,5 +1,11 @@
 import React from "react";
 
+//import icons
+import { BsLink } from 'react-icons/bs';
+import { ImSphere } from 'react-icons/im';
+import { GiClick } from 'react-icons/gi';
+import { GoMarkGithub } from 'react-icons/go';
+
 //import stock
 import stock from "../img/image1.jpg";
 import stock1 from "../img/image2.jpg";
@@ -36,21 +42,25 @@ class Portfolio extends React.Component {
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
                 </a>
+              </div>
 
+              <div className="work-box-bottom">
                 <a href='https://mitusovmaxim.wixsite.com/my-site' rel="noopener noreferrer" target="_blank"> {/*-----> Блок описания!!!!!*/}
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">"FairyToy" - internet shop</h2>
-                        <div className="w-more">
+                      <div className="col-sm-10">        {/* ----------------------> Ширина текста-описания*/}
+                        <h2 className="w-title">Internet shop "FairyToy"</h2>
+                        {/*<h2 className="w-title"></h2>*/}
+                        <div className="w-more tj">      {/* ----------------------> Выравнивание текста*/}
                           <span className="w-ctegory">
                             HTML5 CSS3 Bootstrap ReactJS
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">                                      
-                            <span className="ion-ios-plus-outline"></span>                                      
+                      <div className="col-sm-2 tc">                 {/* ----------------------> Ширина значка*/}
+                        <div className="w-like">
+                            <span ><BsLink /></span>
+                          <h6 className='pv0 blue'>Preview</h6>                                
                         </div>
                       </div>
                     </div>
@@ -103,22 +113,28 @@ class Portfolio extends React.Component {
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
                 </a>
+              </div>
 
+              <div className="work-box-bottom">
                 <a href='https://mitusovmaxim.wixsite.com/my-site' rel="noopener noreferrer" target="_blank"> {/*-----> Блок описания!!!!!*/}
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
-                        <div className="w-more">
+                      <div className="col-sm-10">        {/* ----------------------> Ширина текста-описания*/}
+                        <h2 className="w-title">Face recognition</h2>
+                        <h2 className="w-title">web-application</h2>
+                        <div className="w-more tj">      {/* ----------------------> Выравнивание текста*/}
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack SmoothScrolling
-                            VanillaJS
-                          </span>{" "}
+                            App has a session management feature with authenticated routes that are
+                            built with the use of React.js. The backend is built using Node.js/Express.js with an implementation of a RESTful API
+                            server. SLQ database is securely store user information such as hashed passwords.
+                          </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2 tc">                 {/* ----------------------> Ширина значка*/}
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                          <span ><ImSphere /></span>
+                          <h6 className='pv0 blue'>Preview</h6>      
+                            {/*<span className="ion-ios-plus-outline"></span>*/}
                         </div>
                       </div>
                     </div>
@@ -171,22 +187,26 @@ class Portfolio extends React.Component {
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
                 </a>
-                
+              </div>                
+
+              <div className="work-box-bottom">                
                 <a href='https://mitusovmaxim.wixsite.com/my-site' rel="noopener noreferrer" target="_blank"> {/*-----> Блок описания!!!!!*/}
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
+                      <div className="col-sm-10">        {/* ----------------------> Ширина текста-описания*/}
                         <h2 className="w-title">Lorem Ipsum</h2>
-                        <div className="w-more">
+                        <div className="w-more tj">      {/* ----------------------> Выравнивание текста*/}
                           <span className="w-ctegory">
                             HTML5 CSS3 Bootstrap Webpack ReactJS
                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2 tc">                 {/* ----------------------> Ширина значка*/}
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                          <span ><GiClick /></span>
+                          <h6 className='pv0 blue'>Preview</h6>  
+                          {/*<span className="ion-ios-plus-outline"></span>*/}
                         </div>
                       </div>
                     </div>

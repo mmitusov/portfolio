@@ -15,6 +15,10 @@ h6 {
   color: #1e1e1e;
 }
 
+h6 {
+  font-size: 12px;
+}
+
 a {
   color: #1e1e1e;
   transition: all 0.5s ease-in-out;
@@ -697,6 +701,13 @@ PORTFOLIO
 */
 
 .work-box {
+/*  margin-bottom: 3rem;*/
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #fff;
+}
+
+.work-box-bottom {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -718,7 +729,7 @@ PORTFOLIO
 }
 
 .work-content {
-  padding: 2rem 3% 1rem 4%;
+  padding: 1rem 3% 1rem 4%;
 }
 
 .work-content .w-more {

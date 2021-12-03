@@ -1,61 +1,80 @@
 import React from "react";
 import myImage from "../img/myImage.png";
+import tachyons from "tachyons";
+
+import stock from "../img/files/Resume.pdf";
+
 
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
           porcentage: "90%",
           value: "90"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+        { 
+          id: "HTML5_skill", 
+          content: "HTML5", 
+          porcentage: "75%", 
+          value: "75"
+        },         
+        {
+          id: "CSS3_skill", 
+          content: "CSS3", 
+          porcentage: "70%", 
+          value: "70"
+        },
+        { 
+          id: "Python_skill",
+          content: "Python",
+          porcentage: "60%",
+          value: "60"
+        },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
-        },
-        {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
-        },
-        {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
           porcentage: "85%",
           value: "85"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
+          id: "NodeJS_skill",
+          content: "NodeJS",
+          porcentage: "85%",
+          value: "85"
+        },
+        {
+          id: "SQL_skill",
+          content: "SQL",
+          porcentage: "75%",
+          value: "75"
+        },
+        {
+          id: "Git/GitHub_skill",
+          content: "Git/GitHub",
+          porcentage: "85%",
+          value: "85"
         }
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            `Hello, I'm Maksym! I'm experienced Full Stack Developer that loves innovation and new technological advancements. I started my career as the Python Developer and then shifted to JS/ React.js/ Node.js direction that I would like to keep mastering farther on.`
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "What I like about my job is that I can see the results of my effort right away. Also, what I appreciate is that I'm being surrounded by very intelligent and nice people. Since, I believe that communication and teamwork are as important as professional skills should be!"
         },
-        {
-          id: "third-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
+        // {
+        //   id: "third-p-about",
+        //   content:
+        //     "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+        // }
       ]
     };
   }
@@ -122,6 +141,20 @@ class About extends React.Component {
                         );
                       })}
                     </div>
+
+                            <div className="tc pt4">
+                                <a 
+                                    className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black f5-ns"  
+                                    href={stock}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                  <div className="white">
+                                    My Resume
+                                  </div>
+                                </a>
+                            </div>                          
+
                   </div>
                 </div>
               </div>
