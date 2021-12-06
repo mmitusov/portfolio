@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d09ea8b5a04739b48e3cbcf1c6e85d75",
+    "revision": "3ce1c74058b5d97a5111a973ca5c4f41",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e62f735d358d581d825c",
+    "revision": "78de02e733c0690f989c",
     "url": "/portfolio/static/css/2.cae1c67b.chunk.css"
   },
   {
-    "revision": "6c8c41e1babc3e367fb2",
-    "url": "/portfolio/static/css/main.4152b550.chunk.css"
+    "revision": "29d86e05d5b770fc0ee7",
+    "url": "/portfolio/static/css/main.4d20fa7b.chunk.css"
   },
   {
-    "revision": "e62f735d358d581d825c",
-    "url": "/portfolio/static/js/2.8c23c097.chunk.js"
+    "revision": "78de02e733c0690f989c",
+    "url": "/portfolio/static/js/2.751f672d.chunk.js"
   },
   {
     "revision": "332bf1b0d236b7fc5455596e6356764c",
-    "url": "/portfolio/static/js/2.8c23c097.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.751f672d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c8c41e1babc3e367fb2",
-    "url": "/portfolio/static/js/main.e61bc17b.chunk.js"
+    "revision": "29d86e05d5b770fc0ee7",
+    "url": "/portfolio/static/js/main.707dce42.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/4robo_friend.4e44dca3.png"
   },
   {
-    "revision": "33c7f362af988398691250e239752f54",
-    "url": "/portfolio/static/media/Resume.33c7f362.pdf"
+    "revision": "aad0845ef6f36392a6179a40fb7a204e",
+    "url": "/portfolio/static/media/Resume_Maksym_Mitusov.aad0845e.pdf"
   },
   {
     "revision": "67af05e12311bac06327b43ca31e166b",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/portfolio/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
+    "url": "/portfolio/static/media/fontawesome-webfont.acf3dcb7.svg"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/ionicons.2c2ae068.eot"
   },
   {
-    "revision": "621bd386841f74e0053cb8e67f8a0604",
-    "url": "/portfolio/static/media/ionicons.621bd386.svg"
+    "revision": "c037dbbc0e6790f30e824a50010df5fb",
+    "url": "/portfolio/static/media/ionicons.c037dbbc.svg"
   },
   {
     "revision": "bd80794fddbffb4031fab537cc898680",
