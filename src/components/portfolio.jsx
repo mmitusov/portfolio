@@ -260,7 +260,7 @@ class Portfolio extends React.Component {
 {/*-----> Блок картинки!!!!!*/}
             <div className="col-md-4">
               <div className="work-box">
-                <a href={img_6} data-lightbox="gallery-aguadeluz"> 
+                <a href={img_6} data-lightbox="gallery-medlingos"> 
                   <div className="work-img">
                     <img src={img_6} alt="" className="img-fluid" />
                   </div>
@@ -293,37 +293,37 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 
-                <a
+                {/*<a
                   href={img_6}
-                  data-lightbox="gallery-aguadeluz"
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                </a>
+                </a>*/}
                 {/*<a
                   href={stock2}
-                  data-lightbox="gallery-aguadeluz"
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={stock3}
-                  data-lightbox="gallery-aguadeluz"
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={stock4}
-                  data-lightbox="gallery-aguadeluz"
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={stock5}
-                  data-lightbox="gallery-aguadeluz"
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
