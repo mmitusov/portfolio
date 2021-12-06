@@ -2,7 +2,7 @@ import React from "react";
 import myImage from "../img/myImage.png";
 import tachyons from "tachyons";
 
-import stock from "../img/files/Resume.pdf";
+import stock from "../img/files/Resume_Maksym_Mitusov.pdf";
 
 
 class About extends React.Component {
