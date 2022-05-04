@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae71c9e52dd9a304f9c9f719dc92e45e",
+    "revision": "c12f7ca3b3f8244b753d07ec868d4fde",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.cae1c67b.chunk.css"
   },
   {
-    "revision": "9fc228230497ea0c5488",
+    "revision": "10b1cbfa111cc3b274c6",
     "url": "/portfolio/static/css/main.4d20fa7b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.751f672d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9fc228230497ea0c5488",
-    "url": "/portfolio/static/js/main.a21565dd.chunk.js"
+    "revision": "10b1cbfa111cc3b274c6",
+    "url": "/portfolio/static/js/main.a08fae81.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/4robo_friend.4e44dca3.png"
   },
   {
-    "revision": "18c79d41e0bb895d2ad52b4089acf2aa",
-    "url": "/portfolio/static/media/Maksym_Mitusov_CV.18c79d41.pdf"
+    "revision": "78686d187c62aaa2179aa6b47d926536",
+    "url": "/portfolio/static/media/Maksym-Mitusov-CV.78686d18.pdf"
   },
   {
     "revision": "67af05e12311bac06327b43ca31e166b",
